@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import json
 
-# Clear any cached data at the start
-st.cache_data.clear()
+
+
 
 # Page configuration
 st.set_page_config(

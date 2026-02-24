@@ -1,8 +1,16 @@
-streamlit==1.31.0
-numpy==2.0.2
+# ───── Streamlit environment for SuperKart Random Forest App ─────
+streamlit==1.39.0        # Streamlit version that supports NumPy 2.x
+numpy==2.0.2             # Matches your Colab training environment
 pandas==2.2.2
-scikit-learn==1.6.1
+scikit-learn==1.6.1      # Required to load your trained Random Forest pipeline
 joblib==1.4.2
-requests==2.32.4
+xgboost==2.1.4           # Included since it was part of your base environment
+requests==2.32.4         # For downloading the model from Hugging Face
+seaborn==0.13.2          # Optional (data visualization)
+matplotlib==3.10.0       # Optional (plotting)
+huggingface_hub==0.34.0  # Optional (upload/download integration)
+
+# Streamlit Cloud will install these automatically.
+# No additional configuration necessary.
 
 

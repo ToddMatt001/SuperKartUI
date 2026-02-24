@@ -19,7 +19,7 @@ import sklearn
 
 
 # ---- Google Drive model link (direct download)
-MODEL_URL = "https://huggingface.co/toddmattingly/SuperKart_RF/resolve/main/model_streamlit.joblib"
+MODEL_URL = "https://huggingface.co/toddmattingly/SuperKart_RF/resolve/main/model_rf_portable.pkl"
 MODEL_PATH = "model.joblib"
 
 

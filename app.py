@@ -19,8 +19,9 @@ import sklearn
 
 
 # ---- Google Drive model link (direct download)
-MODEL_URL = "https://drive.google.com/uc?export=download&id=1-uTxM9aJwm7eubA8_l_4heWEYXL5DGQf"
+MODEL_URL = "https://huggingface.co/toddmattingly/SuperKart_RF/resolve/main/model.joblib"
 MODEL_PATH = "model.joblib"
+
 
 
 # ---- Log current scikit‑learn version
